@@ -1,0 +1,152 @@
+body{
+    background-color: #dbdbdb;
+}
+
+.logo{
+    height: 100px;
+}
+.bg-success{
+  background-color: #48AE4D!important;
+}
+.bg-primary{
+ background-color: #4958A3!important;
+}
+nav{
+max-width: 900px;
+margin: auto;
+background-color: #4958A3;
+font-size: 20px;
+
+}
+.menu-horizontal{
+    margin-top: -5.7%;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: #48AE4D;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: #1f344686;
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: #48AE4D;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+body {
+    background-color: #dbdbdb;
+    margin: 0;
+    padding: 0;
+}
+
+.titt {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 10px;
+    background-color: #1F3446;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+/* Contenedor principal que agrupa el slider y la imagen */
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%; /* Ajusta este valor para cambiar la distancia entre los elementos */
+    margin-top: 4%;
+}
+
+/* Estilos básicos para el slider */
+.slider-container {
+    position: relative;
+    width: 300px; /* Ajusta el ancho del slider */
+    overflow: hidden;
+}
+
+.slider--inner {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider--inner img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Estilo para las imágenes del slider */
+.imgg {
+    width: 300px; /* Ajusta este tamaño para cambiar el tamaño de las imágenes del slider */
+    height: auto;
+}
+
+/* Estilo para la imagen al lado del slider */
+.img23 {
+    width: 500px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+}
+.hrr{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 10px;
+    background-color: #1F3446;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+h1{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 300%;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: #dbdbdb;
+}
+header{
+    width: 100%;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #48AE4D;
+}
+.logo{
+    height: 80%;
+}
+.img1{
+    height: 80%;
+}

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="../css/ejercicios.css">
+</head>
+
+<body>
+	<header class="bg-success">
+		<div class="container">
+		  <div class="row">
+			<div class="col-12">
+			  <div class="d-flex justify-content-center">
+				<img	
+				  class="logo"
+				  src="../sources/images/logo de lado (1).png"
+				  alt=""
+				  srcset=""
+				/>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </header>
+
+	<nav class="navbar navbar-expand-lg bg-primary">
+		<div class="container-fluid">
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav m-auto">
+			  <li class="nav-item">
+				<a class="text-white nav-link active" aria-current="page" href="../landing.html">Inicio</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="text-white nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Módulos
+				  </a>
+				  <ul class="bg-primary dropdown-menu">
+					<li><a class="text-white dropdown-item" href="./fitness.html">Introducción</a></li>
+					<li><a class="text-white dropdown-item" href="./basicos.html">Básicos</a></li>
+					<li><a class="text-white dropdown-item" href="./salud.html">Salud</a></li>
+					<li><a class="text-white dropdown-item" href="./disponibilidad.html">Disponibilidad</a></li>
+					<li><a class="text-white dropdown-item" href="./tecnicas1.html">Técnicas 1</a></li>
+					<li><a class="text-white dropdown-item" href="./personalizacion.html">Personalización</a></li>
+					<li><a class="text-white dropdown-item" href="./tecnicas2.html">Técnicas 2</a></li>
+					<li><a class="text-white dropdown-item" href="./evaluacion.html">Evaluación</a></li>
+				  </ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="text-white nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Cuenta
+				  </a>
+				  <ul class="bg-primary dropdown-menu">
+					<li><a class="text-white dropdown-item" href="./cerrarsesion.html">Cerrar sesión</a></li>
+				
+				  </ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="text-white nav-link" href="#">Contacto</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="text-white nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Otros
+				</a>
+				<ul class="bg-primary dropdown-menu">
+				  <li><a class="text-white dropdown-item" href="./Desarrollo.html">Inicio y progreso</a></li>
+				  <li><a class="text-white dropdown-item" href="./acerca.html">Sobre nosotros</a></li>			
+				</ul>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+
+  <h1 class="ejercicios">EJERCICIOS</h1>
+  <section class="secc">
+  <hr>
+  <div class="gallery">
+    <!-- Video 1 -->
+    <div class="video-thumbnail" onclick="openModal('video1')">
+        <img src="../sources/images/450_1000.webp" alt="Video 1">
+        <h3>Flexiones</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="video-thumbnail" onclick="openModal('video2')">
+        <img src="../sources/images/02831101-Diamond-Push-up_Upper-Arms-FIX_small.png" alt="Video 2">
+        <h3>Flexiones Diamantes</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="video-thumbnail" onclick="openModal('video3')">
+        <img src="../sources/images/images (1).jpeg" alt="Video 3">
+        <h3>Flexiones con las rodillas apoyadas</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+</div>
+  
+  <!-- Modal para Video 1 -->
+  <div id="video1" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video1')">&times;</span>
+        <video controls>
+          <source src="../sources/video/Download.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  
+  <!-- Modal para Video 2 -->
+  <div id="video2" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video2')">&times;</span>
+        <video controls>
+          <source src="video2.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  
+  <!-- Modal para Video 3 -->
+  <div id="video3" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video3')">&times;</span>
+        <video controls>
+          <source src="video3.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  <hr class="hr5">
+</section>
+
+  <section class="secc">
+  <div class="gallery">
+    <!-- Video 1 -->
+    <div class="video-thumbnail" onclick="openModal('video1')">
+        <img src="../sources/images/450_1000.webp" alt="Video 1">
+        <h3>Sentadilla</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="video-thumbnail" onclick="openModal('video2')">
+        <img src="../sources/images/02831101-Diamond-Push-up_Upper-Arms-FIX_small.png" alt="Video 2">
+        <h3>Sentadilla búlgara</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="video-thumbnail" onclick="openModal('video3')">
+        <img src="../sources/images/images (1).jpeg" alt="Video 3">
+        <h3>Sentadilla sumo</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+</div>
+  
+  <!-- Modal para Video 1 -->
+  <div id="video1" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video1')">&times;</span>
+        <video controls>
+          <source src="../sources/video/Download.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  
+  <!-- Modal para Video 2 -->
+  <div id="video2" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video2')">&times;</span>
+        <video controls>
+          <source src="video2.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  
+  <!-- Modal para Video 3 -->
+  <div id="video3" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video3')">&times;</span>
+        <video controls>
+          <source src="video3.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  </div>
+  <hr>
+</section>
+    
+<section class="secc">
+  <div class="gallery">
+    <!-- Video 1 -->
+    <div class="video-thumbnail" onclick="openModal('video1')">
+        <img src="../sources/images/450_1000.webp" alt="Video 1">
+        <h3>Dominadas supinas</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="video-thumbnail" onclick="openModal('video2')">
+        <img src="../sources/images/02831101-Diamond-Push-up_Upper-Arms-FIX_small.png" alt="Video 2">
+        <h3>Dominadas pronas</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="video-thumbnail" onclick="openModal('video3')">
+        <img src="../sources/images/images (1).jpeg" alt="Video 3">
+        <h3>Dominadas neutras</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+</div>
+  
+  <!-- Modal para Video 1 -->
+  <div id="video1" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video1')">&times;</span>
+        <video controls>
+          <source src="../sources/video/Download.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  
+  <!-- Modal para Video 2 -->
+  <div id="video2" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video2')">&times;</span>
+        <video controls>
+          <source src="video2.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  
+  <!-- Modal para Video 3 -->
+  <div id="video3" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video3')">&times;</span>
+        <video controls>
+          <source src="video3.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  </div>
+  <hr>
+</section>
+
+
+<section class="secc">
+  <div class="gallery">
+    <!-- Video 1 -->
+    <div class="video-thumbnail" onclick="openModal('video1')">
+        <img src="../sources/images/450_1000.webp" alt="Video 1">
+        <h3>Fondos en barra</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="video-thumbnail" onclick="openModal('video2')">
+        <img src="../sources/images/02831101-Diamond-Push-up_Upper-Arms-FIX_small.png" alt="Video 2">
+        <h3>Fondos en banca</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="video-thumbnail" onclick="openModal('video3')">
+        <img src="../sources/images/images (1).jpeg" alt="Video 3">
+        <h3>Fondos en barra paralela</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+</div>
+  
+  <!-- Modal para Video 1 -->
+  <div id="video1" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video1')">&times;</span>
+        <video controls>
+          <source src="../sources/video/Download.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  
+  <!-- Modal para Video 2 -->
+  <div id="video2" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video2')">&times;</span>
+        <video controls>
+          <source src="video2.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  
+  <!-- Modal para Video 3 -->
+  <div id="video3" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video3')">&times;</span>
+        <video controls>
+          <source src="video3.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  </div>
+  <hr>
+</section>
+
+<section class="secc">
+  <div class="gallery">
+    <!-- Video 1 -->
+    <div class="video-thumbnail" onclick="openModal('video1')">
+        <img src="../sources/images/450_1000.webp" alt="Video 1">
+        <h3>Peso Muerto</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="video-thumbnail" onclick="openModal('video2')">
+        <img src="../sources/images/02831101-Diamond-Push-up_Upper-Arms-FIX_small.png" alt="Video 2">
+        <h3>Peso muerto rumano</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="video-thumbnail" onclick="openModal('video3')">
+        <img src="../sources/images/images (1).jpeg" alt="Video 3">
+        <h3>Peso muerto estricto</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+</div>
+  
+  <!-- Modal para Video 1 -->
+  <div id="video1" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video1')">&times;</span>
+        <video controls>
+          <source src="../sources/video/Download.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  
+  <!-- Modal para Video 2 -->
+  <div id="video2" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video2')">&times;</span>
+        <video controls>
+          <source src="video2.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  
+  <!-- Modal para Video 3 -->
+  <div id="video3" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('video3')">&times;</span>
+        <video controls>
+          <source src="video3.mp4" type="video/mp4">
+          Tu navegador no soporta la reproducción de videos.
+        </video>
+      </div>
+  </div>
+  </div>
+  <hr>
+</section>
+
+    <script src="../js/ejercicios.js"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
