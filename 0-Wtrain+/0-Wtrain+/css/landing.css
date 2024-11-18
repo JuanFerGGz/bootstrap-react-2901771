@@ -1,0 +1,156 @@
+body{
+    background-color: #dbdbdb;
+}
+.bg-success{
+    background-color: #48AE4D!important;
+}
+.bg-primary{
+   background-color: #4958A3!important;
+}
+nav{
+	max-width: 900px;
+	margin: auto;
+	background-color: #4958A3;
+	font-size: 20px;
+
+}
+.menu-horizontal{
+    margin-top: -5.7%;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: #48AE4D;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: #1f344686;
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: #48AE4D;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+a{
+    color: #4958A3;
+}
+a:hover{
+    color: #48AE4D;
+}
+.logo{
+    height: 100px;
+}
+
+.secc1{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.titulos{
+    font-family: "Bebas Neue", sans-serif;
+}
+.corriendo{
+    width: 30%;
+    z-index: 2;
+}
+.triangulo{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    z-index: -1;
+
+}
+.triangulo2{
+    position: absolute;
+    width: 25%;
+    right: 0;
+}
+.secc2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.titulos{
+
+    width: 20%;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 300%;
+    
+}
+hr{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    background-color: #1f3446;
+    height: 10px;
+    border-radius: 10px;
+}
+.info{
+      display: flex;
+    justify-content: center;
+    text-align: center; 
+    font-size: 200%;
+    width: 70%;
+
+}
+.sosteniendo{
+    width: 40%;
+    position: absolute;
+    ;
+    z-index: -1;
+}
+.triangulo3{
+    margin-top: 3.12%;
+    position: absolute;
+    right: 0px;
+    width: 51%;
+}
+.triangulo4{
+    margin-top: 3%;
+    position: absolute;
+    left: 0px;
+    width: 51%;
+    rotate: 180deg;
+}
+.secc3{
+ display: flex;
+ justify-content: center;
+}
+.secc4{
+       margin-top: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.corriendo2{
+    width: 30%;
+}
+.link{
+    
+    font-family: "Bebas Neue", sans-serif;
+}
+.boton{
+    
+    font-family: "Bebas Neue", sans-serif;
+}

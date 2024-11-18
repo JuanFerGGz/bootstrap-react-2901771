@@ -1,0 +1,23 @@
+
+.bg-white{
+
+    background-color: #a1a5a5 !important;
+
+}
+.form{
+
+    border: #1F3446 6px solid;
+    border-radius: 5%;
+}
+
+.input{
+    border-radius: 5px;
+}
+.submit{
+
+    background-color: #48ae4d;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+ 
+    border-radius: 5px;
+}

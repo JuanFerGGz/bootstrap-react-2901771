@@ -1,0 +1,44 @@
+body{
+    background-color: #dbdbdb;
+}
+
+.logo{
+    height: 100px;
+}
+.bg-success{
+  background-color: #48AE4D!important;
+}
+.bg-primary{
+ background-color: #4958A3!important;
+}
+nav{
+max-width: 900px;
+margin: auto;
+background-color: #4958A3;
+font-size: 20px;
+
+}
+h1{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 300%;
+}
+.secc1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    background-color: #1f3446;
+    height: 10px;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+    font-size: 125%;
+    width: 70%;
+}
