@@ -54,9 +54,8 @@ font-size: 20px;
 	padding: 15px 15px 15px 20px;
 }
 h1{
-    text-align: center;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 300%;
+
 }
 hr{
     width: 75%;
@@ -66,32 +65,14 @@ hr{
     height: 10px;
     border-radius: 10px;
 }
-p{
-    text-align: center;
-    font-size: 200%;
-    width: 70%;
-}
-.texto{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
+
 a{
     text-decoration: none;
    color: #4A85C5;
 }
 
-.ej1{
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-p{
-    font-size: 120%;
-}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -161,4 +142,7 @@ p{
     color: #000;
     text-decoration: none;
   }
-  
+  .boton{
+    
+    font-family: "Bebas Neue", sans-serif;
+}

@@ -1,4 +1,4 @@
-    const container = document.querySelector(".container")
+    const carta= document.querySelector(".carta")
 
 
 
@@ -14,7 +14,7 @@
                 
             
         `
-        container.appendChild(card)
+        carta.appendChild(card)
         /* imprimer solo del 10 al 20 */
     /*     if(item.id <=20 && item.id >=10){
             document.write(card)

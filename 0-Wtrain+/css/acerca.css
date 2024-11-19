@@ -56,16 +56,8 @@ font-size: 20px;
 body{
     background-color: #dbdbdb;
 }
-.s1{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.tit{
-    display: flex;
-    justify-content: center;
-    margin-top: 4%;
-}
+
+
 hr{
     display: flex;
     justify-content: center;
@@ -96,11 +88,7 @@ hr{
     margin-top: -45px;
     z-index: -1;
 }
-.s2{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
+
 
 .p2{
     display: flex;
@@ -122,12 +110,7 @@ hr{
     border-radius: 10px;
     margin-top: 45px;
 }
-.s3{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-}
+
 .hr3{
     display: flex;
     justify-content: center;
@@ -185,7 +168,11 @@ hr{
     margin-top: 2%;
 }
 h1{
-    text-align: center;
+
     font-family: "Bebas Neue", sans-serif;
-    font-size: 300%;
+
+}
+.boton{
+    
+    font-family: "Bebas Neue", sans-serif;
 }

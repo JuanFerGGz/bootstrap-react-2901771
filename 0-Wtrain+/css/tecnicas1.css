@@ -1,7 +1,10 @@
 body{
     background-color: #dbdbdb;
 }
-
+.boton{
+    
+    font-family: "Bebas Neue", sans-serif;
+}
 .logo{
     height: 100px;
 }

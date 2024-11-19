@@ -50,8 +50,7 @@ nav{
 	padding: 15px 15px 15px 20px;
 }
 a{
-    text-decoration: none;
-    color: black;
+    color: #4958A3;
 }
 a:hover{
     color: #48AE4D;
@@ -148,6 +147,10 @@ hr{
     width: 30%;
 }
 .link{
+    
+    font-family: "Bebas Neue", sans-serif;
+}
+.boton{
     
     font-family: "Bebas Neue", sans-serif;
 }
