@@ -73,11 +73,7 @@ hr{
     width: 70%;
     text-align: center;
 }
-.img1{
-    width: 40%;
-    margin-top: 10px;
-    z-index: 0;
-}
+
 .hr1{
     display: flex;
     justify-content: center;
@@ -97,10 +93,7 @@ hr{
     width: 70%;
     text-align: center;
 }
-.img2{
-    width: 15%;
-    margin-top: 15px;   
-}
+
 .hr2{
     display: flex;
     justify-content: center;
@@ -128,14 +121,6 @@ hr{
     margin-top: 4%;
 }
 
-.personajes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 4px dashed #1F3446;
-    padding: 2%;
-    background-color: white;
-}
 
 .informacion {
     width: 30%;
@@ -168,9 +153,7 @@ hr{
     margin-top: 2%;
 }
 h1{
-
     font-family: "Bebas Neue", sans-serif;
-
 }
 .boton{
     

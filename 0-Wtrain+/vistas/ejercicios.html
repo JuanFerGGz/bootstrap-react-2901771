@@ -88,307 +88,346 @@
 		  </div>
 		</div>
 	  </nav>
-
-  <h1 class="ejercicios">EJERCICIOS</h1>
-  <section class="secc">
-  <hr>
-  <div class="gallery">
+<br>
+<br>
+  <h1 class="text-center">EJERCICIOS</h1>
+  <section>
+  
+  <div class="container">
+  <div class="row">
+    <hr>
+  <div class="d-flex justify-content-evenly gallery">
     <!-- Video 1 -->
-    <div class="video-thumbnail" onclick="openModal('video1')">
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video1')">
         <img src="../sources/images/450_1000.webp" alt="Video 1">
         <h3>Flexiones</h3>
-        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+        <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
     </div>
 
     <!-- Video 2 -->
-    <div class="video-thumbnail" onclick="openModal('video2')">
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video2')">
         <img src="../sources/images/02831101-Diamond-Push-up_Upper-Arms-FIX_small.png" alt="Video 2">
         <h3>Flexiones Diamantes</h3>
         <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
     </div>
 
     <!-- Video 3 -->
-    <div class="video-thumbnail" onclick="openModal('video3')">
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video3')">
         <img src="../sources/images/images (1).jpeg" alt="Video 3">
         <h3>Flexiones con las rodillas apoyadas</h3>
         <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
     </div>
+
+    <!-- Modal para Video 1 -->
+  <div id="video1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video1')">&times;</span>
+      <video controls>
+        <source src="../sources/video/Download.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+<!-- Modal para Video 2 -->
+<div id="video2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video2')">&times;</span>
+      <video controls>
+        <source src="video2.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+<!-- Modal para Video 3 -->
+<div id="video3" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video3')">&times;</span>
+      <video controls>
+        <source src="video3.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+
+</div>
+<hr>
+</div>
 </div>
   
-  <!-- Modal para Video 1 -->
-  <div id="video1" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video1')">&times;</span>
-        <video controls>
-          <source src="../sources/video/Download.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  
-  <!-- Modal para Video 2 -->
-  <div id="video2" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video2')">&times;</span>
-        <video controls>
-          <source src="video2.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  
-  <!-- Modal para Video 3 -->
-  <div id="video3" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video3')">&times;</span>
-        <video controls>
-          <source src="video3.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  <hr class="hr5">
 </section>
 
-  <section class="secc">
-  <div class="gallery">
+<section>
+  
+  <div class="container">
+  <div class="row">
+  <div class="d-flex justify-content-evenly gallery">
     <!-- Video 1 -->
-    <div class="video-thumbnail" onclick="openModal('video1')">
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video1')">
         <img src="../sources/images/450_1000.webp" alt="Video 1">
-        <h3>Sentadilla</h3>
-        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+        <h3>Fondos</h3>
+        <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
     </div>
 
     <!-- Video 2 -->
-    <div class="video-thumbnail" onclick="openModal('video2')">
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video2')">
+        <img src="../sources/images/02831101-Diamond-Push-up_Upper-Arms-FIX_small.png" alt="Video 2">
+        <h3>Fondos en barra</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video3')">
+        <img src="../sources/images/images (1).jpeg" alt="Video 3">
+        <h3>Fondos en paralela</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Modal para Video 1 -->
+  <div id="video1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video1')">&times;</span>
+      <video controls>
+        <source src="../sources/video/Download.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+<!-- Modal para Video 2 -->
+<div id="video2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video2')">&times;</span>
+      <video controls>
+        <source src="video2.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+<!-- Modal para Video 3 -->
+<div id="video3" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video3')">&times;</span>
+      <video controls>
+        <source src="video3.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+
+</div>
+<hr>
+</div>
+</div>
+  
+</section>
+
+<section>
+  
+  <div class="container">
+  <div class="row">
+    
+  <div class="d-flex justify-content-evenly gallery">
+    <!-- Video 1 -->
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video1')">
+        <img src="../sources/images/450_1000.webp" alt="Video 1">
+        <h3>Sentadilla</h3>
+        <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video2')">
         <img src="../sources/images/02831101-Diamond-Push-up_Upper-Arms-FIX_small.png" alt="Video 2">
         <h3>Sentadilla búlgara</h3>
         <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
     </div>
 
     <!-- Video 3 -->
-    <div class="video-thumbnail" onclick="openModal('video3')">
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video3')">
         <img src="../sources/images/images (1).jpeg" alt="Video 3">
         <h3>Sentadilla sumo</h3>
         <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
     </div>
+
+    <!-- Modal para Video 1 -->
+  <div id="video1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video1')">&times;</span>
+      <video controls>
+        <source src="../sources/video/Download.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+<!-- Modal para Video 2 -->
+<div id="video2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video2')">&times;</span>
+      <video controls>
+        <source src="video2.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+<!-- Modal para Video 3 -->
+<div id="video3" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video3')">&times;</span>
+      <video controls>
+        <source src="video3.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+
+</div>
+<hr>
+</div>
 </div>
   
-  <!-- Modal para Video 1 -->
-  <div id="video1" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video1')">&times;</span>
-        <video controls>
-          <source src="../sources/video/Download.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  
-  <!-- Modal para Video 2 -->
-  <div id="video2" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video2')">&times;</span>
-        <video controls>
-          <source src="video2.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  
-  <!-- Modal para Video 3 -->
-  <div id="video3" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video3')">&times;</span>
-        <video controls>
-          <source src="video3.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  </div>
-  <hr>
 </section>
-    
-<section class="secc">
-  <div class="gallery">
+
+<section>
+  
+  <div class="container">
+  <div class="row">
+  
+  <div class="d-flex justify-content-evenly gallery">
     <!-- Video 1 -->
-    <div class="video-thumbnail" onclick="openModal('video1')">
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video1')">
         <img src="../sources/images/450_1000.webp" alt="Video 1">
-        <h3>Dominadas supinas</h3>
-        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+        <h3>Peso muerto</h3>
+        <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
     </div>
 
     <!-- Video 2 -->
-    <div class="video-thumbnail" onclick="openModal('video2')">
-        <img src="../sources/images/02831101-Diamond-Push-up_Upper-Arms-FIX_small.png" alt="Video 2">
-        <h3>Dominadas pronas</h3>
-        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
-    </div>
-
-    <!-- Video 3 -->
-    <div class="video-thumbnail" onclick="openModal('video3')">
-        <img src="../sources/images/images (1).jpeg" alt="Video 3">
-        <h3>Dominadas neutras</h3>
-        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
-    </div>
-</div>
-  
-  <!-- Modal para Video 1 -->
-  <div id="video1" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video1')">&times;</span>
-        <video controls>
-          <source src="../sources/video/Download.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  
-  <!-- Modal para Video 2 -->
-  <div id="video2" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video2')">&times;</span>
-        <video controls>
-          <source src="video2.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  
-  <!-- Modal para Video 3 -->
-  <div id="video3" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video3')">&times;</span>
-        <video controls>
-          <source src="video3.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  </div>
-  <hr>
-</section>
-
-
-<section class="secc">
-  <div class="gallery">
-    <!-- Video 1 -->
-    <div class="video-thumbnail" onclick="openModal('video1')">
-        <img src="../sources/images/450_1000.webp" alt="Video 1">
-        <h3>Fondos en barra</h3>
-        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
-    </div>
-
-    <!-- Video 2 -->
-    <div class="video-thumbnail" onclick="openModal('video2')">
-        <img src="../sources/images/02831101-Diamond-Push-up_Upper-Arms-FIX_small.png" alt="Video 2">
-        <h3>Fondos en banca</h3>
-        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
-    </div>
-
-    <!-- Video 3 -->
-    <div class="video-thumbnail" onclick="openModal('video3')">
-        <img src="../sources/images/images (1).jpeg" alt="Video 3">
-        <h3>Fondos en barra paralela</h3>
-        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
-    </div>
-</div>
-  
-  <!-- Modal para Video 1 -->
-  <div id="video1" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video1')">&times;</span>
-        <video controls>
-          <source src="../sources/video/Download.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  
-  <!-- Modal para Video 2 -->
-  <div id="video2" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video2')">&times;</span>
-        <video controls>
-          <source src="video2.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  
-  <!-- Modal para Video 3 -->
-  <div id="video3" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video3')">&times;</span>
-        <video controls>
-          <source src="video3.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  </div>
-  <hr>
-</section>
-
-<section class="secc">
-  <div class="gallery">
-    <!-- Video 1 -->
-    <div class="video-thumbnail" onclick="openModal('video1')">
-        <img src="../sources/images/450_1000.webp" alt="Video 1">
-        <h3>Peso Muerto</h3>
-        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
-    </div>
-
-    <!-- Video 2 -->
-    <div class="video-thumbnail" onclick="openModal('video2')">
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video2')">
         <img src="../sources/images/02831101-Diamond-Push-up_Upper-Arms-FIX_small.png" alt="Video 2">
         <h3>Peso muerto rumano</h3>
         <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
     </div>
 
     <!-- Video 3 -->
-    <div class="video-thumbnail" onclick="openModal('video3')">
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video3')">
         <img src="../sources/images/images (1).jpeg" alt="Video 3">
-        <h3>Peso muerto estricto</h3>
+        <h3>Peso muerto sumo</h3>
         <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
     </div>
+
+    <!-- Modal para Video 1 -->
+  <div id="video1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video1')">&times;</span>
+      <video controls>
+        <source src="../sources/video/Download.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+<!-- Modal para Video 2 -->
+<div id="video2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video2')">&times;</span>
+      <video controls>
+        <source src="video2.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+<!-- Modal para Video 3 -->
+<div id="video3" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video3')">&times;</span>
+      <video controls>
+        <source src="video3.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+
+</div>
+<hr>
+</div>
 </div>
   
-  <!-- Modal para Video 1 -->
+</section>
+
+<section>
+  
+  <div class="container">
+  <div class="row">
+  
+  <div class="d-flex justify-content-evenly gallery">
+    <!-- Video 1 -->
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video1')">
+        <img src="../sources/images/450_1000.webp" alt="Video 1">
+        <h3>Dominada supina</h3>
+        <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video2')">
+        <img src="../sources/images/02831101-Diamond-Push-up_Upper-Arms-FIX_small.png" alt="Video 2">
+        <h3>Dominada neutra</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="col-3 d-flex flex-column align-items-center text-center video-thumbnail" onclick="openModal('video3')">
+        <img src="../sources/images/images (1).jpeg" alt="Video 3">
+        <h3>Dominada prona</h3>
+        <p class="extra-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius repellendus libero maxime tempore voluptates dolor sed recusandae dicta fuga sequi a sit quisquam similique quas, voluptatum ad pariatur. Repudiandae architecto reiciendis sed ab molestiae voluptatum nesciunt placeat aliquid iure dolore corrupti tenetur quis minima qui et, inventore ullam rerum consequatur?</p>
+    </div>
+
+    <!-- Modal para Video 1 -->
   <div id="video1" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video1')">&times;</span>
-        <video controls>
-          <source src="../sources/video/Download.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video1')">&times;</span>
+      <video controls>
+        <source src="../sources/video/Download.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+<!-- Modal para Video 2 -->
+<div id="video2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video2')">&times;</span>
+      <video controls>
+        <source src="video2.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+<!-- Modal para Video 3 -->
+<div id="video3" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('video3')">&times;</span>
+      <video controls>
+        <source src="video3.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+      </video>
+    </div>
+</div>
+
+
+</div>
+<hr>
+</div>
+</div>
   
-  <!-- Modal para Video 2 -->
-  <div id="video2" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video2')">&times;</span>
-        <video controls>
-          <source src="video2.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  
-  <!-- Modal para Video 3 -->
-  <div id="video3" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal('video3')">&times;</span>
-        <video controls>
-          <source src="video3.mp4" type="video/mp4">
-          Tu navegador no soporta la reproducción de videos.
-        </video>
-      </div>
-  </div>
-  </div>
-  <hr>
 </section>
 
     <script src="../js/ejercicios.js"></script>

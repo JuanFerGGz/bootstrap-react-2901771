@@ -16,41 +16,6 @@ max-width: 900px;
 margin: auto;
 background-color: #4958A3;
 font-size: 20px;
-
-}nu-horizontal{
-    margin-top: -5.7%;
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
-}
-.menu-horizontal > li > a{
-	display: block;
-	padding: 15px 20px;
-	color: white;
-	text-decoration: none;
-}
-.menu-horizontal > li:hover{
-	background-color: #48AE4D;
-}
-.menu-vertical{
-	position: absolute;
-	display: none;
-	list-style: none;
-	width: 200px;
-	background-color: #1f344686;
-}
-.menu-horizontal li:hover .menu-vertical{
-	display: block;
-}
-.menu-vertical li:hover{
-	background-color: #48AE4D;
-}
-
-.menu-vertical li a{
-	display: block;
-	color: white;
-	text-decoration: none;
-	padding: 15px 15px 15px 20px;
 }
 body{
     background-color: #dbdbdb;
@@ -58,11 +23,7 @@ body{
   margin: 0;
   padding: 0;
 }
-.ejercicios{
-    display: flex;
-    justify-content: center;
-    margin-top: 4%;
-}
+
 hr{
 
     width: 75%;
@@ -77,20 +38,7 @@ hr{
     background-color: #dbdbdb;
 }
 /* Galería de videos */
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 5%;
-    padding: 20px;
-    margin-top: 5%;
-  }
-  
-  .video-thumbnail {
-    text-align: center;
-    cursor: pointer;
-    width: 15%;
-  }
+
   
   .video-thumbnail img {
     width: 100%;
@@ -148,35 +96,8 @@ hr{
     color: #000;
     text-decoration: none;
   }
-  .extra-text {
-    color: #333;
-    margin-top: 5px;
-    font-size: 120%;
-}
 
-.part1{
-  display: flex;
-}
-.musculo{
-  width: 25%;
-  margin-top: 4%;
-  margin-left: 20%;
-  position: absolute;
-}
-.P-muscul{
-  width: 35%;
-  margin-left: 48%;
-  margin-top: 8%;
-  font-size: 120%;
-  position: absolute;
-}
 
 h1{
-  text-align: center;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 300%;
-}
-.boton{
-    
   font-family: "Bebas Neue", sans-serif;
 }
