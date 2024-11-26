@@ -7,48 +7,6 @@ body{
 .bg-primary{
    background-color: #4958A3!important;
 }
-nav{
-	max-width: 900px;
-	margin: auto;
-	background-color: #4958A3;
-	font-size: 20px;
-
-}
-.menu-horizontal{
-    margin-top: -5.7%;
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
-}
-.menu-horizontal > li > a{
-	display: block;
-	padding: 15px 20px;
-	color: white;
-	text-decoration: none;
-}
-.menu-horizontal > li:hover{
-	background-color: #48AE4D;
-}
-.menu-vertical{
-	position: absolute;
-	display: none;
-	list-style: none;
-	width: 200px;
-	background-color: #1f344686;
-}
-.menu-horizontal li:hover .menu-vertical{
-	display: block;
-}
-.menu-vertical li:hover{
-	background-color: #48AE4D;
-}
-
-.menu-vertical li a{
-	display: block;
-	color: white;
-	text-decoration: none;
-	padding: 15px 15px 15px 20px;
-}
 a{
     color: #4958A3;
 }

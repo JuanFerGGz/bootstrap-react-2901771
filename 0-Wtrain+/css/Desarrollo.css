@@ -18,56 +18,14 @@ background-color: #4958A3;
 font-size: 20px;
 
 }
-.menu-horizontal{
-    margin-top: -5.7%;
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
-}
-.menu-horizontal > li > a{
-	display: block;
-	padding: 15px 20px;
-	color: white;
-	text-decoration: none;
-}
-.menu-horizontal > li:hover{
-	background-color: #48AE4D;
-}
-.menu-vertical{
-	position: absolute;
-	display: none;
-	list-style: none;
-	width: 200px;
-	background-color: #1f344686;
-}
-.menu-horizontal li:hover .menu-vertical{
-	display: block;
-}
-.menu-vertical li:hover{
-	background-color: #48AE4D;
-}
-
-.menu-vertical li a{
-	display: block;
-	color: white;
-	text-decoration: none;
-	padding: 15px 15px 15px 20px;
-}
 body {
     background-color: #dbdbdb;
     margin: 0;
     padding: 0;
 }
 
-.titt {
-    display: flex;
-    justify-content: center;
-    margin-top: 4%;
-}
-
 hr {
-    display: flex;
-    justify-content: center;
+
     width: 75%;
     height: 10px;
     background-color: #1F3446;
@@ -77,9 +35,6 @@ hr {
 
 /* Contenedor principal que agrupa el slider y la imagen */
 .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 25%; /* Ajusta este valor para cambiar la distancia entre los elementos */
     margin-top: 4%;
 }
@@ -92,8 +47,6 @@ hr {
 }
 
 .slider--inner {
-    display: flex;
-    width: 100%;
     transition: transform 0.5s ease-in-out;
 }
 
@@ -135,15 +88,6 @@ hr {
 .img23 {
     width: 500px; /* Ajusta el tamaño de la imagen según sea necesario */
     height: auto;
-}
-.hrr{
-    display: flex;
-    justify-content: center;
-    width: 75%;
-    height: 10px;
-    background-color: #1F3446;
-    border-radius: 10px;
-    margin-top: 4%;
 }
 h1{
     text-align: center;
